@@ -5,6 +5,20 @@
     font-family: Arial, sans-serif;
 }
 
+#title {
+    background-color: yellow;
+    padding: 8px;
+    width: 1120px;
+    height: 79px;
+    margin-bottom: 40px;
+    
+}
+
+h4 {
+  font-size: 16px;
+  color: #E1624f;
+  font-weight: bold;
+}
 
 #preta {
     background-image: url('fundoPreto.jpg');
@@ -27,6 +41,7 @@
     height: 3279px;
     padding: 80px;
     box-sizing: border-box;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     
 
     /* centraliza dentro do #preta */
@@ -44,18 +59,64 @@ a {
   text-decoration: none;
 }
 
+#container {
+  background-color: violet;
+    width: 1120px;
+    box-sizing: border-box;
+}
+
 #container img {
-    background-color: violet;
+    background-color:blue;
   display: block;
   margin: 0 auto;
   width: 1120px;
   height:660px;
-  padding: 0;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
 
+hr #linha1 { 
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+hr#linha2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #container p{
   text-align: center;
+}
+
+#texto0 {
+  background-color: bisque;
+  margin-bottom: 64px;
+  
+}
+
+#texto1 {
+  background-color: #E1624f;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+  #texto2 {
+    
+  background-color: blue;
+margin-top: 20px;
+margin-bottom: 48px;
+  }
+
+#texto3 {
+  /* background-color: green; */
+  margin-top: 20px;
+}
+#texto4 {
+  background-color: lightgrey;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 65px;
 }
 
 ul {
@@ -64,4 +125,9 @@ ul {
 
 .indent {
   padding-left: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
 }
